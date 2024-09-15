@@ -1,0 +1,33 @@
+.info-container {
+  padding: 20px;
+}
+
+.info-card {
+  background-color: #001220;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #001220;
+  padding: 10px;
+}
+
+.btn-success {
+  background-color: #5a2942;
+  border: none;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.btn-success:hover {
+  background-color: #5a2942;
+}
+
+.alert {
+  margin-top: 15px;
+}

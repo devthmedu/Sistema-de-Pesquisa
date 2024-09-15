@@ -1,0 +1,117 @@
+/* App.css */
+
+body {
+  background: url('/public//backgrund.svg') no-repeat center center fixed; /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz com que a imagem cubra toda a área do fundo */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  height: 5vh;
+  top: 0;
+  position: fixed;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.qform {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  color: black;
+}
+
+.footer {
+  background-color: #001220; 
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Estilizações adicionais */
+.container-fluid {
+  margin-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+  background-color: #001220; /* Fundo branco */
+  color: #cacaca;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.btn-success {
+  background-color: #fbae3c; /* Verde */
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #fbae3c; /* Verde mais escuro ao passar o mouse */
+}
+
+/* Badge styles */
+.badge {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.badge-success {
+  background-color: #fbae3c; /* Verde */
+  color: #ffffff;
+}
+
+.badge-secondary {
+  background-color: #6c757d; /* Cinza */
+  color: #ffffff;
+}
+
+/* Navbar and Footer enhancements */
+.navbar {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.footer {
+  background-color: #007bff; /* Azul */
+  color: #ffffff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form inputs */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"] {
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  padding: 10px;
+  width: 100%;
+}
