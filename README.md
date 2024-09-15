@@ -1,6 +1,7 @@
 
-
 # Projeto de Formulário de Perguntas
+
+![1](https://github.com/user-attachments/assets/4716f455-fcc1-4e96-949d-05e0e4ad7e09)
 
 Este projeto é um formulário em React que coleta informações dos usuários por meio de um conjunto de perguntas. O formulário é projetado para capturar uma variedade de dados e, após o envio, redireciona o usuário para uma página de detalhes.
 
